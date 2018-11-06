@@ -1,0 +1,168 @@
+2018-11-05 14:03:23.622 [http-nio-8088-exec-3] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 14:03:23.624 [http-nio-8088-exec-3] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/user/login,query params:null
+2018-11-05 14:11:26.961 [http-nio-8088-exec-5] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 14:11:26.963 [http-nio-8088-exec-5] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/user/login,query params:null
+2018-11-05 14:31:11.416 [http-nio-8088-exec-2] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 14:31:11.418 [http-nio-8088-exec-2] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/user/login,query params:null
+2018-11-05 14:35:43.646 [http-nio-8088-exec-9] ERROR- 谢必棋 com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 14:35:45.392 [http-nio-8088-exec-9] ERROR- 谢必棋 com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/user/login,query params:null
+2018-11-05 14:36:06.402 [http-nio-8088-exec-10] ERROR- 谢必棋 com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 14:36:06.402 [http-nio-8088-exec-10] ERROR- 谢必棋 com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/user/login,query params:null
+2018-11-05 14:57:47.710 [http-nio-8088-exec-5] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:00:21.231 [http-nio-8088-exec-2] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:00:25.679 [http-nio-8088-exec-5] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:00:49.879 [http-nio-8088-exec-5] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:01:51.402 [http-nio-8088-exec-4] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:02:05.971 [http-nio-8088-exec-8] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:13:21.357 [http-nio-8088-exec-1] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 15:14:03.651 [http-nio-8088-exec-4] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 15:17:41.438 [http-nio-8088-exec-1] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 15:18:10.268 [http-nio-8088-exec-3] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 15:20:04.656 [http-nio-8088-exec-1] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 15:21:18.948 [http-nio-8088-exec-2] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 15:26:38.139 [http-nio-8088-exec-3] ERROR-  org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8088-exec-3] Exception processing template "login": Error resolving template "login", template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "login", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:870)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-05 15:26:38.143 [http-nio-8088-exec-3] ERROR-  o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "login", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "login", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:870)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-05 15:50:55.274 [http-nio-8088-exec-9] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:52:10.408 [http-nio-8088-exec-7] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:52:54.986 [http-nio-8088-exec-1] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:54:02.416 [http-nio-8088-exec-2] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 15:54:02.416 [http-nio-8088-exec-2] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 15:54:02.416 [http-nio-8088-exec-10] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 15:54:02.417 [http-nio-8088-exec-9] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 15:54:02.418 [http-nio-8088-exec-9] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 15:54:02.418 [http-nio-8088-exec-10] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 15:54:02.421 [http-nio-8088-exec-7] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 15:54:02.422 [http-nio-8088-exec-7] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 15:56:30.945 [http-nio-8088-exec-6] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 15:57:57.904 [http-nio-8088-exec-9] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:00:16.505 [http-nio-8088-exec-3] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:00:37.948 [http-nio-8088-exec-1] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:01:05.242 [http-nio-8088-exec-6] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:03:05.353 [http-nio-8088-exec-3] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:05:48.666 [http-nio-8088-exec-2] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:06:03.290 [http-nio-8088-exec-7] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:09:35.735 [http-nio-8088-exec-2] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:23:38.174 [http-nio-8088-exec-2] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported,uri:/login,query params:null
+2018-11-05 16:38:16.477 [http-nio-8088-exec-3] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 16:39:28.078 [http-nio-8088-exec-3] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 16:43:23.681 [http-nio-8088-exec-3] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 16:49:16.785 [http-nio-8088-exec-8] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 16:54:31.480 [http-nio-8088-exec-9] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，未知异常:nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 4,uri:/login,query params:null
+2018-11-05 16:59:18.220 [http-nio-8088-exec-6] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 16:59:18.223 [http-nio-8088-exec-6] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 19:21:23.451 [http-nio-8088-exec-4] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 19:21:23.454 [http-nio-8088-exec-4] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 19:44:56.572 [http-nio-8088-exec-5] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 19:44:56.575 [http-nio-8088-exec-5] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 20:06:58.833 [http-nio-8088-exec-3] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 20:06:58.874 [http-nio-8088-exec-3] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 20:07:12.437 [http-nio-8088-exec-4] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 20:07:12.437 [http-nio-8088-exec-4] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-05 20:45:48.569 [http-nio-8088-exec-4] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-05 20:45:48.571 [http-nio-8088-exec-4] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
