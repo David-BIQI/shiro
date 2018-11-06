@@ -1,0 +1,4 @@
+2018-11-06 19:03:27.170 [http-nio-8888-exec-10] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-06 19:03:27.172 [http-nio-8888-exec-10] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null
+2018-11-06 19:39:27.452 [http-nio-8888-exec-10] ERROR-  com.common.check.CheckUtil - 用户名或密码错误
+2018-11-06 19:39:27.454 [http-nio-8888-exec-10] ERROR-  com.config.CommonExceptionAdvice - 接口调用服务异常，内部异常:用户名或密码错误,uri:/login,query params:null

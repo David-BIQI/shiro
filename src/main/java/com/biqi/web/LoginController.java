@@ -29,30 +29,30 @@ import static com.common.check.CheckUtil.hasErrors;
 @RequestMapping("/user")
 public class LoginController {
 	
-	@Autowired
-	private LoginService loginService;
+//	@Autowired
+//	private LoginService loginService;
+//
+//	@PostMapping("/loginOut")
+//	@ApiOperation(value = "退出", notes="退出")
+//	public ResultDto<Boolean> loginOut(HttpSession session,@RequestBody @Validated(value = { Login.class }) LoginDto loginDto,
+//									   BindingResult bindingResult) {
+//		hasErrors (bindingResult);
+//		ResultDto<Boolean> resultDto = new ResultDto<>();
+//		resultDto.setData(loginService.loginOut(loginDto));
+//		return resultDto;
+//	}
 
-	@PostMapping("/loginOut")
-	@ApiOperation(value = "退出", notes="退出")
-	public ResultDto<Boolean> loginOut(HttpSession session,@RequestBody @Validated(value = { Login.class }) LoginDto loginDto,
-									   BindingResult bindingResult) {
-		hasErrors (bindingResult);
-		ResultDto<Boolean> resultDto = new ResultDto<>();
-		resultDto.setData(loginService.loginOut(loginDto));
-		return resultDto;
-	}
-
-	@PostMapping("/login")
-    @ResponseBody
-	@ApiOperation(value = "登录", notes="登录")
-	public ResultDto<UserDto> login(HttpSession session,@RequestBody @Validated(value = { Login.class }) LoginDto loginDto,
-									BindingResult bindingResult) {
-		hasErrors(bindingResult);
-		ResultDto<UserDto> resultDto = new ResultDto<>();
-		resultDto.setData(loginService.login(session,loginDto));
-
-		return resultDto;
-	}
+//	@PostMapping("/login")
+//    @ResponseBody
+//	@ApiOperation(value = "登录", notes="登录")
+//	public ResultDto<UserDto> login(HttpSession session,@RequestBody @Validated(value = { Login.class }) LoginDto loginDto,
+//									BindingResult bindingResult) {
+//		hasErrors(bindingResult);
+//		ResultDto<UserDto> resultDto = new ResultDto<>();
+//		resultDto.setData(loginService.login(session,loginDto));
+//
+//		return resultDto;
+//	}
 
 
 

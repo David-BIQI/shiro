@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.biqi</groupId>
-	<artifactId>code</artifactId>
+	<artifactId>shiro_test</artifactId>
 	<version>1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>code</name>
+	<name>shiro_test</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

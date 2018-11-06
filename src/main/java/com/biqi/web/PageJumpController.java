@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Api(tags = {"页面跳转Api文档"})
 public class PageJumpController {
 
+
     @RequestMapping("/index")
     public String index(){
         return "login";
@@ -25,10 +26,7 @@ public class PageJumpController {
     }
 
 
-    @RequestMapping("/login")
-    public String login(){
-        return"/login";
-    }
+
 
 
 

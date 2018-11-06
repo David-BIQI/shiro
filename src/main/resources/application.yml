@@ -40,7 +40,7 @@ mqtt:
     
 #设置端口号
 server:
-  port: 8088
+  port: 8888
   
 # mybatis包的扫描，还有就是映射文件设置 mybatis tk插件的使用
 mybatis:
