@@ -20,8 +20,7 @@ killTomcat()
       kill -9 $pid
     fi
 }
-cd $PROJ_PATH/shiro_test
-mvn clean 
+cd $PROJ_PATH/shiro
 mvn install -DskipTests
 
 # 停tomcat
