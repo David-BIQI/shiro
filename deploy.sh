@@ -1,5 +1,5 @@
-
-
+# 文件所在的位置等
+cd $PROJ_PATH/shiro
 mvn install -DskipTests
 
 # 复制新的工程
