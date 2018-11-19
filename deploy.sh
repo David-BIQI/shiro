@@ -28,15 +28,21 @@ mvn install -DskipTests
 killTomcat
 
 # 删除原有工程
-rm -rf $TOMCAT_APP_PATH/webapps/ROOT
-rm -f $TOMCAT_APP_PATH/webapps/ROOT.war
-rm -f $TOMCAT_APP_PATH/webapps/shiro_test-1.1-SNAPSHOT.jar
+# rm -rf $TOMCAT_APP_PATH/webapps/ROOT
+# rm -f $TOMCAT_APP_PATH/webapps/ROOT.war
+# rm -f $TOMCAT_APP_PATH/webapps/shiro_test-1.1-SNAPSHOT.jar
 
 # 复制新的工程
-cp $PROJ_PATH/shiro/target/shiro_test-1.1-SNAPSHOT.jar $TOMCAT_APP_PATH/webapps/
+# cp $PROJ_PATH/shiro/target/shiro_test-1.1-SNAPSHOT.jar $TOMCAT_APP_PATH/webapps/
+
+# cd $TOMCAT_APP_PATH/webapps/
+# mv shiro_test-1.1-SNAPSHOT.jar
+
+# 复制新的工程
+cp $PROJ_PATH/shiro/target/order.war $TOMCAT_APP_PATH/webapps/
 
 cd $TOMCAT_APP_PATH/webapps/
-mv shiro_test-1.1-SNAPSHOT.jar
+mv shiro_test-1.1-SNAPSHOT.jar ROOT.war
 
 # 启动Tomcat
 cd $TOMCAT_APP_PATH/
