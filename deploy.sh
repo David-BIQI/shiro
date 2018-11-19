@@ -36,7 +36,7 @@ rm -f $TOMCAT_APP_PATH/webapps/shiro_test-1.1-SNAPSHOT.jar
 cp $PROJ_PATH/shiro/target/shiro_test-1.1-SNAPSHOT.jar $TOMCAT_APP_PATH/webapps/
 
 cd $TOMCAT_APP_PATH/webapps/
-mv shiro_test-1.1-SNAPSHOT.jar ROOT.war
+mv shiro_test-1.1-SNAPSHOT.jar
 
 # 启动Tomcat
 cd $TOMCAT_APP_PATH/
