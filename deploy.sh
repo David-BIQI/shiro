@@ -38,19 +38,19 @@ killTomcat
 # cd $TOMCAT_APP_PATH/webapps/
 # mv shiro_test-1.1-SNAPSHOT.jar
 
-ifconfig
+
 
 # 复制新的工程
 cp $PROJ_PATH/shiro/target/shiro_test-1.1-SNAPSHOT.jar $TOMCAT_APP_PATH/webapps/
 
-ifconfig
+
 
 # cd $TOMCAT_APP_PATH/webapps/
 # mv shiro_test-1.1-SNAPSHOT.jar ROOT.war
 
 # 启动Tomcat
-# cd $TOMCAT_APP_PATH/
-# sh bin/startup.sh
+cd $TOMCAT_APP_PATH/
+sh bin/startup.sh
 
 
 
