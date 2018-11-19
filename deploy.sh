@@ -17,7 +17,4 @@ cp $PROJ_PATH/shiro/target/shiro_test-1.1-SNAPSHOT.jar $TOMCAT_APP_PATH/
 
 # 启动Tomcat
 cd $TOMCAT_APP_PATH/
-nohup  java -jar shiro_test-1.1-SNAPSHOT.jar  & tail -f
-
-
-
+java -jar shiro_test-1.1-SNAPSHOT.jar
