@@ -18,7 +18,7 @@ public class PageConstantController {
     @RequestMapping("/403")
     public String unauthorizedRole(){
         System.out.println("------没有权限-------");
-        return "403";
+        return "/403";
     }
 
 
@@ -26,7 +26,7 @@ public class PageConstantController {
     @RequestMapping("/404")
     public String unfind(){
         System.out.println("------没有请求路径-------");
-        return "404";
+        return "/404";
     }
 
 }
